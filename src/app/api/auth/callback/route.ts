@@ -52,5 +52,8 @@ export async function GET(request: NextRequest) {
     }
   }
 
-  return NextResponse.redirect(`${base}/auth?error=${next === "/auth/reset" ? "recuperacion" : "confirmacion"}`);
+  // Con `code` el mail ya fue verificado por Supabase: lo que falló fue iniciar
+  // la sesión (otro navegador). Sin `code`, el link directamente no sirve.
+  const reason = next === "/auth/reset" ? "recuperacion" : code ? "confirmacion" : "link";
+  return NextResponse.redirect(`${base}/auth?error=${reason}`);
 }

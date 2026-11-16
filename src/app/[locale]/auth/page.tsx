@@ -12,7 +12,8 @@ type Props = {
 };
 
 const NOTICES: Record<string, string> = {
-  confirmacion: "No pudimos iniciar tu sesión desde el link del mail. Si ya confirmaste tu email, iniciá sesión acá con tu email y contraseña.",
+  confirmacion: "Tu email quedó confirmado, pero no pudimos iniciar la sesión desde ese link (pasa cuando se abre en otro navegador o en el celular). Iniciá sesión acá con tu email y contraseña.",
+  link: "Ese link no es válido o ya se usó. Si ya confirmaste tu email, iniciá sesión acá con tu email y contraseña.",
   recuperacion: "El link para cambiar la contraseña venció, ya se usó o se abrió en otro navegador. Tocá \"¿Olvidaste tu contraseña?\" para pedir uno nuevo.",
 };
 
