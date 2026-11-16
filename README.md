@@ -2,7 +2,7 @@
 
 A guide to what's happening in Buenos Aires (music, theater, food, nightlife, art) that you can browse by *vibe*, not only by date or category.
 
-**Live demo:** https://pulso-ba.vercel.app  ·  [Versión en español](README.es.md)
+**Live demo:** https://ritmo-ba.vercel.app  ·  [Versión en español](README.es.md)
 
 > The events and venues are made-up demo data. Photos come from Unsplash (credits in each event's data and in `src/lib/photoCredits.ts`).
 
