@@ -13,7 +13,7 @@
     "category": "music",
     "vibeId": "jazz-de-sotano",
     "venueId": "sala-tinta-azul",
-    "startsAt": "2026-10-09T21:30:00-03:00",
+    "startsAt": "2026-11-20T21:30:00-03:00",
     "priceRange": {
       "min": 18000,
       "max": 25000,
@@ -50,7 +50,7 @@
     "category": "music",
     "vibeId": "primavera-en-la-terraza",
     "venueId": "terraza-jacaranda",
-    "startsAt": "2026-10-11T18:00:00-03:00",
+    "startsAt": "2026-11-22T18:00:00-03:00",
     "priceRange": {
       "min": 12000,
       "max": 15000,
@@ -86,7 +86,7 @@
     "category": "theater",
     "vibeId": "escena-dramatica",
     "venueId": "teatro-del-farol",
-    "startsAt": "2026-10-14T20:30:00-03:00",
+    "startsAt": "2026-11-25T20:30:00-03:00",
     "priceRange": {
       "min": 15000,
       "max": 22000,
@@ -118,7 +118,7 @@
     "category": "food",
     "vibeId": "sobremesa-larga",
     "venueId": "bodegon-la-aurora",
-    "startsAt": "2026-10-16T21:00:00-03:00",
+    "startsAt": "2026-11-27T21:00:00-03:00",
     "priceRange": {
       "min": 45000,
       "max": 60000,
@@ -151,7 +151,7 @@
     "category": "nightlife",
     "vibeId": "noche-electrica",
     "venueId": "club-medianoche-sur",
-    "startsAt": "2026-10-17T23:59:00-03:00",
+    "startsAt": "2026-11-28T23:59:00-03:00",
     "priceRange": {
       "min": 20000,
       "max": 30000,
@@ -189,7 +189,7 @@
     "category": "art",
     "vibeId": "arte-contemporaneo",
     "venueId": "galeria-pasaje-27",
-    "startsAt": "2026-10-21T19:00:00-03:00",
+    "startsAt": "2026-12-02T19:00:00-03:00",
     "priceRange": {
       "min": 0,
       "max": 0,
@@ -222,7 +222,7 @@
     "category": "social",
     "vibeId": "domingo-de-feria",
     "venueId": "mercado-del-riel",
-    "startsAt": "2026-10-25T11:00:00-03:00",
+    "startsAt": "2026-12-06T11:00:00-03:00",
     "priceRange": {
       "min": 0,
       "max": 3000,
@@ -255,7 +255,7 @@
     "category": "theater",
     "vibeId": "melancolico-esperanzador",
     "venueId": "teatro-del-farol",
-    "startsAt": "2026-10-28T21:00:00-03:00",
+    "startsAt": "2026-12-09T21:00:00-03:00",
     "priceRange": {
       "min": 12000,
       "max": 18000,
@@ -287,7 +287,7 @@
     "category": "food",
     "vibeId": "primavera-en-la-terraza",
     "venueId": "terraza-jacaranda",
-    "startsAt": "2026-11-01T11:30:00-03:00",
+    "startsAt": "2026-12-13T11:30:00-03:00",
     "priceRange": {
       "min": 18000,
       "max": 26000,
@@ -320,7 +320,7 @@
     "category": "music",
     "vibeId": "melancolico-esperanzador",
     "venueId": "sala-tinta-azul",
-    "startsAt": "2026-11-06T22:00:00-03:00",
+    "startsAt": "2026-12-18T22:00:00-03:00",
     "priceRange": {
       "min": 16000,
       "max": 22000,
@@ -356,7 +356,7 @@
     "category": "food",
     "vibeId": "sobremesa-larga",
     "venueId": "bodegon-la-aurora",
-    "startsAt": "2026-11-12T20:00:00-03:00",
+    "startsAt": "2026-12-17T20:00:00-03:00",
     "priceRange": {
       "min": 30000,
       "max": 38000,
