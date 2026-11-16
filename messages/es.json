@@ -120,5 +120,14 @@
       "Arte",
       "Social"
     ]
+  },
+  "Footer": {
+    "tagline": "La agenda viva de Buenos Aires: música, teatro, gastronomía y planes.",
+    "navLabel": "Enlaces del pie de página",
+    "code": "Código en GitHub",
+    "demo": "Proyecto de portfolio. Los eventos, lugares y reseñas son de demostración.",
+    "photos": "Fotos: {photographers} / Unsplash.",
+    "author": "Ignacio Díaz Neila",
+    "license": "Licencia MIT"
   }
 }

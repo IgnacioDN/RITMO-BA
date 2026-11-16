@@ -9,7 +9,6 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
 import { Link } from "@/i18n/navigation";
 import { getEvents } from "@/lib/data";
-import { photoCredits } from "@/lib/photoCredits";
 import type { Category } from "@/lib/schemas";
 
 const PREVIEW_COUNT = 2;
@@ -65,17 +64,6 @@ export default async function HomePage({ params }: Props) {
             </section>
           );
         })}
-
-        <p className="mt-4 text-xs opacity-40">
-          Fotos:{" "}
-          {Array.from(
-            new Set([
-              ...events.flatMap((e) => (e.photo ? [e.photo.photographer] : [])),
-              ...Object.values(photoCredits.category).map((c) => c.photographer),
-            ]),
-          ).join(", ")}{" "}
-          / Unsplash
-        </p>
       </main>
     </>
   );

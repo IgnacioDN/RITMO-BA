@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import { Footer } from "@/components/layout/Footer";
 import "../globals.css";
 
 const bodyFont = Plus_Jakarta_Sans({ variable: "--font-body", subsets: ["latin"] });
@@ -39,7 +40,10 @@ export default async function LocaleLayout({ children, params }: Props) {
       className={`${bodyFont.variable} ${geistMono.variable} ${museoModerno.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          {children}
+          <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   );
