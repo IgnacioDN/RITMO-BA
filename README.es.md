@@ -2,7 +2,7 @@
 
 Una guía de lo que pasa en Buenos Aires (música, teatro, gastronomía, noche, arte) que se explora por *vibra* y no solo por fecha o categoría.
 
-**Demo en vivo:** https://pulso-ba.vercel.app  ·  [English version](README.md)
+**Demo en vivo:** https://ritmo-ba.vercel.app  ·  [English version](README.md)
 
 > Los eventos y lugares son datos de demostración inventados. Las fotos son de Unsplash (créditos en los datos de cada evento y en `src/lib/photoCredits.ts`).
 
