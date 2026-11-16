@@ -1,4 +1,4 @@
-# Salí BA
+# Ritmo BA
 
 A guide to what's happening in Buenos Aires (music, theater, food, nightlife, art) that you can browse by *vibe*, not only by date or category.
 
@@ -124,7 +124,7 @@ supabase/            schema.sql
 
 ## About me
 
-Frontend developer with React and TypeScript, with 3+ years working in ecommerce on Adobe Commerce (Magento). My QA background shows in how I build: I care about edge cases, accessibility and failure states. I turn designs into responsive, reusable interfaces and work well with design and business teams. Salí BA is my latest project: a full-stack Next.js app with auth, AI search and a database.
+Frontend developer with React and TypeScript, with 3+ years working in ecommerce on Adobe Commerce (Magento). My QA background shows in how I build: I care about edge cases, accessibility and failure states. I turn designs into responsive, reusable interfaces and work well with design and business teams. Ritmo BA is my latest project: a full-stack Next.js app with auth, AI search and a database.
 
 ## License
 

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /*
- * Identidad Salí BA
+ * Identidad Ritmo BA
  * El fondo oscuro no es un "modo": es la marca. No depende de las
  * preferencias del sistema. El tono es un marron oscuro calido (no negro
  * puro), mas claro que la primera version: evoca la madera de los carros
@@ -147,7 +147,7 @@ textarea:focus-visible {
   outline: none;
 }
 /*
- * Cintillo "Salí BA": el texto se repite dos veces y la pista
+ * Cintillo "Ritmo BA": el texto se repite dos veces y la pista
  * avanza justo la mitad de su ancho, así el loop no tiene salto visible.
  */
 @keyframes pulso-marquee {

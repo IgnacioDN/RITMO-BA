@@ -41,7 +41,7 @@ export default async function AuthPage({ params, searchParams }: Props) {
       <Header />
       <main className="mx-auto w-full max-w-6xl px-4 py-16">
         <div className="mx-auto mb-10 max-w-sm text-center">
-          <SectionHeading as="h1" className="text-3xl">Tu cuenta en Salí BA</SectionHeading>
+          <SectionHeading as="h1" className="text-3xl">Tu cuenta en Ritmo BA</SectionHeading>
           <p className="mt-2 text-white/60">Guardá favoritos, marcá a qué planes vas y dejá tu opinión sobre los eventos.</p>
         </div>
         <AuthForm notice={error ? NOTICES[error] : undefined} />

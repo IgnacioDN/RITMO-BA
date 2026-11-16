@@ -1,6 +1,6 @@
 {
   "Home": {
-    "title": "Salí BA",
+    "title": "Ritmo BA",
     "subtitle": "La agenda viva de Buenos Aires",
     "upcoming": "Próximos eventos",
     "demoNotice": "Datos de demostración",
@@ -16,7 +16,7 @@
     "social": "Social"
   },
   "Nav": {
-    "brand": "Salí BA",
+    "brand": "Ritmo BA",
     "music": "Música",
     "theater": "Teatro",
     "food": "Gastronomía",
@@ -110,7 +110,7 @@
     "viewEvents": "Ver eventos acá →"
   },
   "Marquee": {
-    "cta": "Salí BA",
+    "cta": "Ritmo BA",
     "label": "Ver todos los eventos",
     "words": [
       "Música",
