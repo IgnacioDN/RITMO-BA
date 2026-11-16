@@ -26,7 +26,7 @@ export async function MarqueeBand() {
   return (
     <Link
       href="/events"
-      aria-label={t("cta")}
+      aria-label={t("label")}
       className="pulso-marquee sticky top-20 z-30 block overflow-hidden bg-brand-celeste py-2 text-sm text-[#0b1a24] shadow-[0_6px_24px_-12px_rgba(56,189,248,0.8)]"
     >
       <span className="pulso-marquee-track flex w-max" aria-hidden="true">

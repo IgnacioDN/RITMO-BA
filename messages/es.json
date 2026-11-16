@@ -110,7 +110,8 @@
     "viewEvents": "Ver eventos acá →"
   },
   "Marquee": {
-    "cta": "Encontrá tu evento",
+    "cta": "Pulso BA",
+    "label": "Ver todos los eventos",
     "words": [
       "Música",
       "Teatro",

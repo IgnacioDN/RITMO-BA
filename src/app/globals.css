@@ -147,7 +147,7 @@ textarea:focus-visible {
   outline: none;
 }
 /*
- * Cintillo "Encontrá tu evento": el texto se repite dos veces y la pista
+ * Cintillo "Pulso BA": el texto se repite dos veces y la pista
  * avanza justo la mitad de su ancho, así el loop no tiene salto visible.
  */
 @keyframes pulso-marquee {
