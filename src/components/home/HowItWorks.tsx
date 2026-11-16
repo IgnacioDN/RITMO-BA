@@ -6,7 +6,7 @@ import { Reveal } from "@/components/ui/Reveal";
 import type { EventWithRelations } from "@/lib/schemas";
 
 /** Un evento de la agenda ilustra cada paso (se busca por slug; si no está, se omite la foto). */
-const STEP_PHOTO_SLUGS = ["feria-de-diseno-del-riel", "noche-electrica-vol-3", "atardecer-en-la-terraza"];
+const STEP_PHOTO_SLUGS = ["feria-de-diseno-de-colegiales", "noche-electrica-vol-3", "atardecer-en-la-terraza"];
 
 export async function HowItWorks({ events }: { events: EventWithRelations[] }) {
   const t = await getTranslations("HowItWorks");

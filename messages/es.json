@@ -1,6 +1,6 @@
 {
   "Home": {
-    "title": "Pulso BA",
+    "title": "Salí BA",
     "subtitle": "La agenda viva de Buenos Aires",
     "upcoming": "Próximos eventos",
     "demoNotice": "Datos de demostración",
@@ -16,7 +16,7 @@
     "social": "Social"
   },
   "Nav": {
-    "brand": "Pulso BA",
+    "brand": "Salí BA",
     "music": "Música",
     "theater": "Teatro",
     "food": "Gastronomía",
@@ -110,7 +110,7 @@
     "viewEvents": "Ver eventos acá →"
   },
   "Marquee": {
-    "cta": "Pulso BA",
+    "cta": "Salí BA",
     "label": "Ver todos los eventos",
     "words": [
       "Música",

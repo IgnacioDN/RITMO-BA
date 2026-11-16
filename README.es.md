@@ -1,4 +1,4 @@
-# Pulso BA
+# Salí BA
 
 Una guía de lo que pasa en Buenos Aires (música, teatro, gastronomía, noche, arte) que se explora por *vibra* y no solo por fecha o categoría.
 
@@ -124,7 +124,7 @@ supabase/            schema.sql
 
 ## Sobre mí
 
-Desarrollador frontend con React y TypeScript, con más de 3 años en ecommerce sobre Adobe Commerce (Magento). Mi pasado en QA se nota en cómo construyo: me importan los casos borde, la accesibilidad y los estados de error. Convierto diseños en interfaces responsive y reutilizables, y trabajo bien con equipos de diseño y negocio. Pulso BA es mi proyecto más reciente: una app full-stack en Next.js con login, búsqueda con IA y base de datos.
+Desarrollador frontend con React y TypeScript, con más de 3 años en ecommerce sobre Adobe Commerce (Magento). Mi pasado en QA se nota en cómo construyo: me importan los casos borde, la accesibilidad y los estados de error. Convierto diseños en interfaces responsive y reutilizables, y trabajo bien con equipos de diseño y negocio. Salí BA es mi proyecto más reciente: una app full-stack en Next.js con login, búsqueda con IA y base de datos.
 
 ## Licencia
 

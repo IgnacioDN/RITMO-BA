@@ -1,4 +1,4 @@
--- Pulso BA: esquema inicial de Supabase
+-- Salí BA: esquema inicial de Supabase
 -- Favoritos, "voy" (asistencia) y reseñas, todo ligado a auth.users (el
 -- sistema de usuarios que ya trae Supabase, no hace falta armar el propio).
 

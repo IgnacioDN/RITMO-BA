@@ -16,7 +16,7 @@ const museoModerno = MuseoModerno({
 });
 
 export const metadata: Metadata = {
-  title: "Pulso BA",
+  title: "Salí BA",
   description: "La agenda viva de Buenos Aires: música, teatro, gastronomía y planes.",
 };
 
