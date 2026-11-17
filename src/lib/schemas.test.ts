@@ -108,3 +108,16 @@ describe("fotos de los eventos", () => {
     expect(new Set(urls).size).toBe(events.length);
   });
 });
+
+describe("fechas de los eventos de demostración", () => {
+  it("siempre quedan en el futuro y dentro de unas semanas", async () => {
+    const events = await getEvents();
+    const now = Date.now();
+    const weeks = 6 * 7 * 24 * 60 * 60 * 1000;
+    for (const e of events) {
+      const t = new Date(e.startsAt).getTime();
+      expect(t).toBeGreaterThan(now);
+      expect(t).toBeLessThan(now + weeks);
+    }
+  });
+});

@@ -8,6 +8,7 @@ import {
   VibeSchema,
   type EventWithRelations,
 } from "./schemas";
+import { rollStartsAt } from "./demoDates";
 
 /**
  * CAPA DE DATOS: la única parte de la app que sabe de dónde salen los datos.
@@ -31,17 +32,22 @@ function withRelations(event: (typeof events)[number]): EventWithRelations {
   return { ...event, venue, vibe };
 }
 
-// Resolvemos las relaciones una vez, al cargar el módulo, para detectar datos rotos temprano.
-const allEvents: EventWithRelations[] = events
-  .map(withRelations)
-  .sort((a, b) => a.startsAt.localeCompare(b.startsAt));
+// Las relaciones se resuelven al cargar el módulo para detectar datos rotos temprano.
+const baseEvents: EventWithRelations[] = events.map(withRelations);
+
+/** Los eventos de demostración con sus fechas puestas al día, ordenados por fecha. */
+function currentEvents(now: Date = new Date()): EventWithRelations[] {
+  return baseEvents
+    .map((e) => (e.rollingWeeks === undefined ? e : { ...e, startsAt: rollStartsAt(e.startsAt, e.rollingWeeks, now) }))
+    .sort((a, b) => a.startsAt.localeCompare(b.startsAt));
+}
 
 export async function getEvents(): Promise<EventWithRelations[]> {
-  return allEvents;
+  return currentEvents();
 }
 
 export async function getEventBySlug(slug: string): Promise<EventWithRelations | undefined> {
-  return allEvents.find((e) => e.slug === slug);
+  return currentEvents().find((e) => e.slug === slug);
 }
 
 export async function getVibes() {

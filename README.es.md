@@ -4,13 +4,15 @@ Una guía de lo que pasa en Buenos Aires (música, teatro, gastronomía, noche, 
 
 **Demo en vivo:** https://ritmo-ba.vercel.app  ·  [English version](README.md)
 
-> Los eventos y lugares son datos de demostración inventados. Las fotos son de Unsplash (créditos en los datos de cada evento y en `src/lib/photoCredits.ts`).
+> Los eventos y lugares son datos de demostración inventados, con fechas que se corren solas para que la agenda nunca quede vencida (`src/lib/demoDates.ts`). Las fotos son de Unsplash (créditos en los datos de cada evento y en `src/lib/photoCredits.ts`).
 
 ![Home con la búsqueda en lenguaje natural](docs/screenshots/home.jpg)
 
-| Explorá por vibra | Lugares en el mapa |
+![Así funciona](docs/screenshots/how-it-works.jpg)
+
+| Lugares en el mapa | Reseñas |
 | --- | --- |
-| ![Tarjetas de vibras](docs/screenshots/vibes.jpg) | ![Mapa de lugares](docs/screenshots/map.jpg) |
+| ![Lugares en el mapa](docs/screenshots/map.jpg) | ![Reseñas](docs/screenshots/reviews.jpg) |
 
 ## Por qué lo hice
 

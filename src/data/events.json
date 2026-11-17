@@ -14,6 +14,7 @@
     "vibeId": "jazz-de-sotano",
     "venueId": "sala-tinta-azul",
     "startsAt": "2026-11-20T21:30:00-03:00",
+    "rollingWeeks": 0,
     "priceRange": {
       "min": 18000,
       "max": 25000,
@@ -51,6 +52,7 @@
     "vibeId": "primavera-en-la-terraza",
     "venueId": "terraza-jacaranda",
     "startsAt": "2026-11-22T18:00:00-03:00",
+    "rollingWeeks": 0,
     "priceRange": {
       "min": 12000,
       "max": 15000,
@@ -87,6 +89,7 @@
     "vibeId": "escena-dramatica",
     "venueId": "teatro-del-farol",
     "startsAt": "2026-11-25T20:30:00-03:00",
+    "rollingWeeks": 1,
     "priceRange": {
       "min": 15000,
       "max": 22000,
@@ -119,6 +122,7 @@
     "vibeId": "sobremesa-larga",
     "venueId": "bodegon-la-aurora",
     "startsAt": "2026-11-27T21:00:00-03:00",
+    "rollingWeeks": 1,
     "priceRange": {
       "min": 45000,
       "max": 60000,
@@ -152,6 +156,7 @@
     "vibeId": "noche-electrica",
     "venueId": "club-medianoche-sur",
     "startsAt": "2026-11-28T23:59:00-03:00",
+    "rollingWeeks": 1,
     "priceRange": {
       "min": 20000,
       "max": 30000,
@@ -190,6 +195,7 @@
     "vibeId": "arte-contemporaneo",
     "venueId": "galeria-pasaje-27",
     "startsAt": "2026-12-02T19:00:00-03:00",
+    "rollingWeeks": 2,
     "priceRange": {
       "min": 0,
       "max": 0,
@@ -223,6 +229,7 @@
     "vibeId": "domingo-de-feria",
     "venueId": "mercado-del-riel",
     "startsAt": "2026-12-06T11:00:00-03:00",
+    "rollingWeeks": 2,
     "priceRange": {
       "min": 0,
       "max": 3000,
@@ -256,6 +263,7 @@
     "vibeId": "melancolico-esperanzador",
     "venueId": "teatro-del-farol",
     "startsAt": "2026-12-09T21:00:00-03:00",
+    "rollingWeeks": 3,
     "priceRange": {
       "min": 12000,
       "max": 18000,
@@ -288,6 +296,7 @@
     "vibeId": "primavera-en-la-terraza",
     "venueId": "terraza-jacaranda",
     "startsAt": "2026-12-13T11:30:00-03:00",
+    "rollingWeeks": 3,
     "priceRange": {
       "min": 18000,
       "max": 26000,
@@ -321,6 +330,7 @@
     "vibeId": "melancolico-esperanzador",
     "venueId": "sala-tinta-azul",
     "startsAt": "2026-12-18T22:00:00-03:00",
+    "rollingWeeks": 4,
     "priceRange": {
       "min": 16000,
       "max": 22000,
@@ -357,6 +367,7 @@
     "vibeId": "sobremesa-larga",
     "venueId": "bodegon-la-aurora",
     "startsAt": "2026-12-17T20:00:00-03:00",
+    "rollingWeeks": 4,
     "priceRange": {
       "min": 30000,
       "max": 38000,
@@ -390,6 +401,7 @@
     "vibeId": "arte-contemporaneo",
     "venueId": "galeria-pasaje-27",
     "startsAt": "2026-11-19T19:30:00-03:00",
+    "rollingWeeks": 0,
     "priceRange": {
       "min": 5000,
       "max": 8000,

@@ -51,6 +51,8 @@ export const EventSchema = z.object({
   vibeId: z.string(),
   venueId: z.string(),
   startsAt: z.iso.datetime({ offset: true }), // ISO 8601 con zona horaria
+  /** Solo datos de demostración: semanas después del próximo día que le toca (ver demoDates.ts). */
+  rollingWeeks: z.number().int().min(0).optional(),
   endsAt: z.iso.datetime({ offset: true }).optional(),
   priceRange: z
     .object({
